@@ -10,7 +10,7 @@
   "optionalDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@git.hui51.cn:36234/jizhi-modules/jizhi-theme.git"
+    "url": "https://github.com/creatorkuang/jizhi-theme.git"
   },
   "version": "0.0.2"
 }
