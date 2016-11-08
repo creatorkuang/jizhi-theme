@@ -1,0 +1,404 @@
+@import './default';
+
+
+//border-radius
+@mixin border-radius($radius){
+   -webkit-border-radius: $radius;
+   -moz-border-radius: $radius;
+   border-radius: $radius;
+}
+
+// opcity
+@mixin opacity($opacity:50) {
+  opacity: $opacity / 100;
+  filter: alpha(opacity=$opacity);
+}
+
+
+.brxs{@include border-radius($xs)}
+.brsm{@include border-radius($sm)}
+.brmd{@include border-radius($md)}
+.brlg{@include border-radius($lg)}
+
+
+
+
+.br1{@include border-radius($r1)}
+.br2{@include border-radius($r2)}
+.br3{@include border-radius($r3)}
+
+//padding
+
+.pan{padding:0}
+
+.paxs{padding:$xs}
+.prxs{padding-right:$xs};
+.plxs{padding-left:$xs};
+.ptxs{padding-top:$xs};
+.pbxs{padding-bottom:$xs};
+
+.pasm{padding:$sm}
+.prsm{padding-right:$sm};
+.plsm{padding-left:$sm};
+.ptsm{padding-top:$sm};
+.pbsm{padding-bottom:$sm};
+
+.pamd{padding:$md}
+.prmd{padding-right:$md};
+.plmd{padding-left:$md};
+.ptmd{padding-top:$md};
+.pbmd{padding-bottom:$md};
+
+.palg{padding:$lg}
+.prlg{padding-right:$lg};
+.pllg{padding-left:$lg};
+.ptlg{padding-top:$lg};
+.pblg{padding-bottom:$lg};
+
+//margin
+.man{margin:0}
+
+.maxs{margin:$xs}
+.mrxs{margin-right:$xs};
+.mlxs{margin-left:$xs};
+.mtxs{margin-top:$xs};
+.mbxs{margin-bottom:$xs};
+
+.masm{margin:$sm}
+.mrsm{margin-right:$sm};
+.mlsm{margin-left:$sm};
+.mtsm{margin-top:$sm};
+.mbsm{margin-bottom:$sm};
+
+.mamd{margin:$md}
+.mrmd{margin-right:$md};
+.mlmd{margin-left:$md};
+.mtmd{margin-top:$md};
+.mbmd{margin-bottom:$md};
+
+.malg{margin:$lg}
+.mrlg{margin-right:$lg};
+.mllg{margin-left:$lg};
+.mtlg{margin-top:$lg};
+.mblg{margin-bottom:$lg};
+
+// font size
+.fs1{
+  font-size: $f1;
+}
+.fs2{
+  font-size: $f2;
+}
+.fs3{
+  font-size: $f3;
+}
+.fs4{
+  font-size: $f4;
+}
+.fs5{
+  font-size: $f5;
+}
+.fs6{
+  font-size: $f6;
+}
+.fs7{
+  font-size: $f7;
+}
+
+
+// color
+.c1{
+  color: $c1;
+}
+.c2{
+  color: $c2;
+}
+.c3{
+  color: $c3;
+}
+.c4{
+  color: $c4;
+}
+.c5{
+  color: $c5;
+}
+.c6{
+  color: $c6;
+}
+.c7{
+  color: $c7;
+}
+.c8 {
+  color: $c8;
+}
+.c9 {
+  color: $c9;
+}
+.c10 {
+  color: $c10;
+}
+.c11 {
+  color: $c11;
+}
+.c12 {
+  color: $c12;
+}
+.c13 {
+  color: $c13;
+}
+.c14 {
+  color: $c14;
+}
+// background color
+.bgc1{
+  background-color: $c1;
+}
+.bgc2{
+  background-color: $c2;
+}
+.bgc3{
+  background-color: $c3;
+}
+.bgc4{
+  background-color: $c4;
+}
+.bgc5{
+  background-color: $c5;
+}
+.bgc6{
+  background-color: $c6;
+}
+.bgc7{
+  background-color: $c7;
+}
+.bgc8{
+  background-color: $c8;
+}
+.bgc9{
+  background-color: $c9;
+}
+.bgc10{
+  background-color: $c10;
+}
+.bgc11{
+  background-color: $c11;
+}
+.bgc12{
+  background-color: $c12;
+}
+.bgc13{
+  background-color: $c13;
+}
+.bgc14{
+  background-color: $c14;
+}
+
+// boarder
+.bdc7{
+  border: 1px solid $c7;
+}
+
+
+.dashed{
+  border-bottom: 1px dashed $c3;
+}
+.solid{
+  border-bottom: 1px solid $c3;
+}
+.topline{
+  border-top: 1px solid $c3;
+}
+
+.hidden {
+  display: none;
+}
+.border-solid{
+  border:1px solid $c3;
+}
+
+.centered {
+  margin: 0 auto;
+}
+.center {
+  text-align: center;
+}
+.clearfix{
+  clear:both;
+}
+.inline{
+  display:inline-block;
+}
+
+//width
+.w {
+  width:100%;
+}
+.w9 {
+  width:90%;
+}
+.w5{
+  width: 50%;
+}
+.w2{
+  width: 20%;
+}
+.w2 {
+  width: 10%;
+}
+.w25{
+  width:25%;
+}
+.w33{
+  width: 100/3%;
+}
+
+//height
+.h{
+  height:100%;
+}
+.h50{
+  height:50px;
+}
+.h100{
+  height:100px;
+}
+.h150{
+  height:150px;
+}
+.h200{
+  height:200px;
+}
+
+// box-shadow
+.bsdow{
+  box-shadow: 1px 1px 1px $c3;
+}
+
+// table display:
+.dt{
+  display: table;
+  width: 100%;
+}
+.dtc{
+  display: table-cell;
+}
+
+.vam{
+  vertical-align: middle;
+}
+.vat{
+ vertical-align:top;
+}
+.vab{
+  vertical-align: bottom;
+}
+
+// float
+.right{
+  float: right;
+}
+.left{
+  float: left;
+}
+
+// text clip
+.clip_text{
+  text-overflow:ellipsis;
+  overflow: hidden;
+  white-space:nowrap;
+}
+.scroll{
+  overflow-y:scroll;
+  overflow-x:hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.text_filter{
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+
+.container{
+  margin: 0 auto;
+  @media screen and (min-width: $mobile) {
+     width: 960px!important;
+  }
+  @media screen and (max-width: $mobile) {
+     min-width: 320px!important;
+     width: 100%;
+  }
+}
+.ndeco{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn {
+  cursor: pointer;
+}
+.btn-info {
+  background: $c7;
+  color:white;
+  border: 1px solid $c7;
+}
+.btn-info-o{
+  color: $c7;
+  border: 1px solid $c7;
+  box-sizing: border-box;
+  background: white;
+}
+.btn-success{
+  background: $c7;
+  color:white;
+  border: 1px solid $c7;
+}
+.btn-success-o{
+  color: $c7;
+  border: 1px solid $c7;
+  box-sizing: border-box;
+  background: white;
+}
+.btn-pay{
+  background: #04BE02; // 微信的支付的颜色
+  color:white;
+  cursor: pointer;
+  a:hover{
+    cursor: pointer;
+    color:white!important;
+    border-bottom: none!important;
+  }
+}
+.btn-danger{
+  background: $c9;
+  border: 1px solid $c9;
+  color:white;
+  cursor: pointer;
+}
+.btn-danger-o{
+  color: $c9;
+  border: 1px solid $c9;
+  box-sizing: border-box;
+  background: white;
+}
+
+.btn-lg{
+  font-size: $f6;
+  padding: 15px 30px;
+  line-height: 40px;
+}
+
+.btn-md{
+  font-size: $f4;
+  padding: 10px 20px;
+  line-height: 20px;
+}
+.btn-sm{
+  font-size: $f2;
+  padding: 8px 12px;
+  line-height: 12px;
+}
+
+.box{
+  box-sizing: border-box;
+}

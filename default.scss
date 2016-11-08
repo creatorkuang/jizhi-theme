@@ -1,0 +1,50 @@
+// color
+$c1: #ffffff;
+$c2: #f1f1f1;
+$c3: #e3e3e3;
+$c4: #999999;
+$c5: #666666;
+$c6: #333333;
+$c7: #7e318e;
+$c8: #ff8125;
+$c9: #00a38b;
+$c10: #0099e5;
+$c11: #328f32;
+$c12: rgba(0,0,0,0.9);
+$c13: rgba(0,0,0,0.7);
+$c14: rgba(0,0,0,0.6);
+
+
+// size
+$f1: 13px;
+$f2: 15px;
+$f3: 17px;
+$f4: 18px;
+$f5: 24px;
+$f6: 30px;
+$f7: 36px;
+
+// radius
+$r1: 0px;
+$r2: 4px;
+$r3: 10px;
+
+$xs:5px;
+$sm:10px;
+$md:20px;
+$lg:40px;
+
+
+$mobile: 480px;
+
+@mixin flexLayout(){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  -webkit-box-lines: multiple;
+}

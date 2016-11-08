@@ -1,0 +1,16 @@
+{
+  "author": {
+    "name": "Weipeng Kuang"
+  },
+  "dependencies": {},
+  "description": "jizhi theme",
+  "license": "All right reserved to Jizhi Tech && Weipeng Kuang",
+  "main": "lib/index.js",
+  "name": "jizhi-theme",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@git.hui51.cn:36234/jizhi-modules/jizhi-theme.git"
+  },
+  "version": "0.0.2"
+}
